@@ -1,0 +1,22 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "description": "Telegram Crypto Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "crypto",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binance-api-node": "^0.10.41",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.53.0"
+  }
+}
