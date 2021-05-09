@@ -3,6 +3,10 @@ import TelegramBot from "node-telegram-bot-api";
 import dotenv from "dotenv";
 import { formatMoney } from "./utils/money.js";
 
+// required to running in cloud
+import http from "http";
+http.createServer().listen(process.env.PORT);
+
 dotenv.config();
 
 // API keys can be generated here https://www.binance.com/en/my/settings/api-management
