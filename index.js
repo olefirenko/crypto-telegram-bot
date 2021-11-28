@@ -42,7 +42,8 @@ bot.on("message", (msg) => {
     case "/start":
       bot.sendMessage(
         chatId,
-        "Hi there! I am 🤖 Alice Crypto Bot.To get the price of any token just send me the message `/price <TOKEN>`. For example to get the price of **BTC**: `/price BTC`"
+        "Hi there! I am 🤖 Alice Crypto Bot.To get the price of any token just send me the message `/price <TOKEN>`. For example to get the price of **BTC**: `/price BTC`",
+        { parse_mode: "Markdown" }
       );
       break;
 
