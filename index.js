@@ -40,7 +40,10 @@ bot.on("message", (msg) => {
 
   switch (msg.text) {
     case "/start":
-      bot.sendMessage(chatId, "Hi there! I am Alice Crypto Bot.");
+      bot.sendMessage(
+        chatId,
+        "Hi there! I am 🤖 Alice Crypto Bot.To get the price of any token just send me the message `/price <TOKEN>`. For example to get the price of **BTC**: `/price BTC`"
+      );
       break;
 
     default:
